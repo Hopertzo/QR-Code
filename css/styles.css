@@ -1,0 +1,64 @@
+
+body{
+    display: flex;
+    height: 100vh;  
+    align-items: center;
+    justify-content: center;
+    background-color: #DDE6ED;
+    font-size: 15px;
+    font-weight: 400, 700;
+    font-family: sans-serif;
+    width: 100vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.QRcode_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px transparent #CCCCCC;
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.QRcode_container img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.QRcode_container h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: 700px;
+}
+
+.QRcode_container p{
+    text-align: center;
+    margin-top: 10px;
+    color: hsl(216, 15%, 48%);
+    font-weight: 400px;
+    font-size: 11px;
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+
+ .attribution a:hover{
+    color: blue;
+ }
